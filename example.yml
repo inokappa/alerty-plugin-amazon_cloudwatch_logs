@@ -1,0 +1,11 @@
+log_path: STDOUT
+log_level: debug
+plugins:
+  - type: amazon_cloudwatch_logs
+    access_key_id: AKxxxxxxxxxxxxxxxxxxxxx
+    secret_access_key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    aws_region: ap-northeast-1
+    log_group_name: foo
+    log_stream_name: bar
+    state_file: /path/to/alerty_state_file
+    subject: "FAILURE: [${hostname}] ${command}"
