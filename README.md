@@ -1,6 +1,6 @@
 # Alerty::Plugin::AmazonCloudwatchLogs
 
-Datadog Event plugin for [alerty](https://github.com/sonots/alerty).
+[Amazon CloudWatch Logs](https://aws.amazon.com/jp/cloudwatch/) plugin for [alerty](https://github.com/sonots/alerty).
 
 ## Spcial Thanks
 
@@ -29,7 +29,7 @@ Or install it yourself as:
 
 following is required.
 
-- **type** : must be datadog_event
+- **type** : must be amazon_cloudwatch_logs
 - **access_key** : AWS Access Key 
 - **secret_access_key** : AWS Secret Access Key 
 - **aws_region** : AWS Region Name
